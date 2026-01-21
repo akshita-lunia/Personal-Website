@@ -1,0 +1,65 @@
+/* GENERAL PAGE STYLE */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #222;
+  text-align: center;
+}
+
+p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* HEADINGS */
+h1 {
+  color: #f88379;
+}
+
+/* IMAGES */
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+
+/* NAV BAR */
+.navbar {
+  background-color: #ffc0cb;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  text-decoration: underline;
+}
+
+/* PROJECT CARDS */
+.project {
+  margin: 30px auto;
+  max-width: 600px;
+  text-align: center;
+}
+.project a {
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+}
